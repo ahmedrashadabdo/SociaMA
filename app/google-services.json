@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "86607340393",
+    "firebase_url": "https://sociama-71af0.firebaseio.com",
+    "project_id": "sociama-71af0",
+    "storage_bucket": "sociama-71af0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86607340393:android:63470852a677ac9e",
+        "android_client_info": {
+          "package_name": "com.example.afnan.SociaMA"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86607340393-on2jsn6ce970j34qtohga50677uqq12f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.afnan.SociaMA",
+            "certificate_hash": "53ae4d826afbe3e9161f7c15057c1f025d1f940f"
+          }
+        },
+        {
+          "client_id": "86607340393-o07gdetdsgolkg5ukokls0qnheb7g1h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNyHmYoYSD_KdrYzg4hSLnxC1k9TRgOp8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86607340393-o07gdetdsgolkg5ukokls0qnheb7g1h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

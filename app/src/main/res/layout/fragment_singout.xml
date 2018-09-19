@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:background="@drawable/app_logo"
+        android:id="@+id/app_logo"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you sure you want to sign out ?"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:id="@+id/tvConfirmSignout" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnConfirmSignout"
+            android:layout_below="@+id/tvConfirmSignout"
+            android:background="@drawable/rounded_button"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

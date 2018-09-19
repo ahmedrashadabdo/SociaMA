@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="">
+    <item android:id="@+id/menu_Report"
+        android:title="REPORT"
+        style="@style/ContextMenuButtonRed"
+        android:textColor="@color/darkRed"
+        />
+    <item android:id="@+id/menu_SharePhoto"
+        android:title="SHARE PHOTO"
+        android:icon="@drawable/ic_share"
+        style="@style/ContextMenuButton"/>
+
+    <item android:id="@+id/menu_CopyShareUrl"
+        android:title="COPY SHARE URL"
+        android:icon="@drawable/ic_save"
+        style="@style/ContextMenuButton"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <item android:id="@+id/menu_Cancel"
+        android:title="CANCEL"
+        android:icon="@drawable/ic_cancel"
+        style="@style/ContextMenuButton"/>
+</menu>

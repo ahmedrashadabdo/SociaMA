@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFF</color>
+    <color name="grey">#696969</color>
+    <color name="black">#000000</color>
+    <color name="green">#0A0A42</color>
+    <color name="blue">#9796f0</color>
+    <color name="links">#3385FF</color>
+    <color name="a">#2e6b70</color>
+    <color name="yallow">#C9C299</color>
+    <color name="dark">#000000</color>
+    <color name="darkRed">#cc0000</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+                    <!--Switch Color-->
+    <color name="disable_forground_grey">#42221f1f</color>
+    <color name="disable_thumb_grey">#42221f1f</color>
+    <color name="enable_thumb_blue">#9796f0</color>
+
+
+
+</resources>

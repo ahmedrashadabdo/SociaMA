@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">SociaMA</string>
+
+    <!-- fragment names -->
+    <string name="profile_fragment">Profile</string>
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="view_post_fragment">View Post</string>
+    <string name="view_profile_fragment">ViewProfile</string>
+    <string name="view_comments_fragment">View Comments</string>
+    <string name="sign_out_fragment">Sign Out</string>
+
+    <!-- Firebase messages -->
+    <string name="auth_failed">Authenticate Failed</string>
+    <string name="auth_success">Authentication Success</string>
+
+
+    <!-- Firebase database fields -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+
+    <string name="dbname_photos">photos</string>
+    <string name="dbname_user_photos">user_photos</string>
+
+    <string name="dbname_following">following</string>
+    <string name="dbname_followers">followers</string>
+    <string name="field_email">email</string>
+    <string name="field_username">username</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_website">website</string>
+    <string name="field_description">description</string>
+    <string name="field_phone_number">phone_number</string>
+    <string name="field_user_id">user_id</string>
+
+    <string name="field_likes">likes</string>
+    <string name="field_caption">caption</string>
+    <string name="field_date_created">date_created</string>
+    <string name="field_photo_id">photo_id</string>
+    <string name="field_tags">tags</string>
+    <string name="field_image_path">image_path</string>
+    <string name="field_comments">comments</string>
+
+    <!-- photo types -->
+    <string name="new_photo">new_photo</string>
+    <string name="profile_photo">profile_photo</string>
+
+
+    <!-- Intent ExtraData -->
+    <string name="calling_activity">calling_activity</string>
+
+    <string name="selected_image">selected_image</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="intent_user">intent_user</string>
+
+
+    <!-- activity names -->
+    <string name="profile_activity">Profile Activity</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="search_activity">Search Activity</string>
+    <string name="following_list">FollowingList Activity</string>
+    <string name="followers_list">FollowersList Activity</string>
+
+    <!-- strings -->
+    <string name="gallery">GALLERY</string>
+    <string name="camera">CAMERA</string>
+    <string name="string_open_camera">Open Camera</string>
+
+    <string name="string_next">Next</string>
+    <string name="string_share">Share</string>
+
+    <string name="settings_pwd_equal">Passwords equal</string>
+    <string name="settings_pwd_not_equal">Passwords not equal</string>
+
+    <!-- Bundle arg names -->
+    <string name="activity_number">activity_number</string>
+    <string name="bundle_photo">bundle_photo</string>
+    <string name="bundle_user_account_settings">bundle_user_account_settings</string>
+
+    <!-- VPN Fragment -->
+    <string name="home">Home</string>
+    <string name="support_us">Support Us</string>
+    <!--<string name="contentdescription">VPNTree Images</string>-->
+    <string name="netowork_messages">Network Messages</string>
+    <string name="default_Messages">VPTree Default Messages</string>
+
+    <string name="address">Server Address:</string>
+    <string name="port">Server Port:</string>
+    <string name="secret">Shared Secret:</string>
+    <string name="connect">Connect!</string>
+    <string name="connecting">VPNTree is connecting…</string>
+    <string name="connected">VPNTree is connected!</string>
+    <string name="disconnected">VPNTree is disconnected!</string>
+
+    <string name="multiple_content">Multiple Content</string>
+</resources>

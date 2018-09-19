@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relLayout1">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:background="@drawable/connect_btn"
+                android:id="@+id/connect_view"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:visibility="visible"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:background="@drawable/connected_btn"
+                android:id="@+id/connected_view"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:visibility="invisible"/>
+
+             <!--<ImageView
+                 android:layout_width="200dp"
+                 android:layout_height="180dp"
+                 android:background="@drawable/error_connect_btn"
+                 android:id="@+id/errorconnect_view"
+                 android:layout_centerVertical="true"
+                 android:layout_centerHorizontal="true"
+                 android:clickable="true"
+                 android:visibility="invisible"/>-->
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+

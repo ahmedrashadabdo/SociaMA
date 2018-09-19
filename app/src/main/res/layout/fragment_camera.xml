@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_transparent">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/camera_btn"
+        android:id="@+id/btnOpenCamera"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:id="@+id/tvConfirmopenCamera"
+        android:text="Explore Your SociaMA Camera! "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvConfirmopenCamera"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/grey"
+        android:id="@+id/tvConfirmopenCamera2"
+        android:text="Soon effects,masks,stickers
+ and onther creative tools "/>
+
+</RelativeLayout>
